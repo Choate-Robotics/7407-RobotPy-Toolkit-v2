@@ -6,7 +6,7 @@ from typing import Optional
 import ctre
 from unum import Unum
 
-from motor_tool import PIDMotor
+from motor import PIDMotor
 from utils.units import rad, rev, s, radians_per_second, radians_per_second_squared, radians
 
 

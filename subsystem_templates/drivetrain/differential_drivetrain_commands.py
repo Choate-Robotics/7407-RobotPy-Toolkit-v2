@@ -1,7 +1,7 @@
 from motors import ctre_motors
 from unum import Unum
 
-from command_tool import SubsystemCommand, T
+from command import SubsystemCommand, T
 from motors.ctre_motors import talon_sensor_vel_unit
 from subsystem_templates.drivetrain.differential_drivetrain import DifferentialDrivetrain
 from utils.math import clamp, talon_sensor_units_to_inches, inches_to_talon_sensor_units
