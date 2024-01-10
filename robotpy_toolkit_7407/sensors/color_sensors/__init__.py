@@ -1,1 +1,0 @@
-from robotpy_toolkit_7407.sensors.color_sensors.REVColorSensor import REVColorSensor
