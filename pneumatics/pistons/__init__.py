@@ -1,2 +1,2 @@
-from robotpy_toolkit_7407_v2.pneumatics.pistons.single_solenoid import SingleSolenoidPiston
-from robotpy_toolkit_7407_v2.pneumatics.pistons.double_solenoid import DoubleSolenoidPiston
+from pneumatics.pistons.single_solenoid import SingleSolenoidPiston
+from pneumatics.pistons.double_solenoid import DoubleSolenoidPiston

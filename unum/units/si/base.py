@@ -3,7 +3,7 @@
 Source : http://physics.nist.gov/cuu/Units/units.html)
 """
 
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 unit = Unum.unit
 
 m = M = unit("m", 0, "meter")

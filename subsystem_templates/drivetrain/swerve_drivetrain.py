@@ -5,12 +5,12 @@ from wpimath.kinematics import SwerveDrive4Odometry, SwerveDrive4Kinematics, Swe
     SwerveModulePosition
 from wpimath.estimator import SwerveDrive4PoseEstimator
 
-from robotpy_toolkit_7407_v2.oi.joysticks import JoystickAxis
-from robotpy_toolkit_7407_v2.sensors.gyro import BaseGyro
-from robotpy_toolkit_7407_v2.subsystem import Subsystem
-from robotpy_toolkit_7407_v2.utils import logger
-from robotpy_toolkit_7407_v2.utils.math import rotate_vector, bounded_angle_diff
-from robotpy_toolkit_7407_v2.utils.units import s, m, deg, rad, hour, mile, rev, meters, meters_per_second, \
+from oi.joysticks import JoystickAxis
+from sensors.gyro import BaseGyro
+from subsystem import Subsystem
+from utils import logger
+from utils.math import rotate_vector, bounded_angle_diff
+from utils.units import s, m, deg, rad, hour, mile, rev, meters, meters_per_second, \
     radians_per_second, radians
 
 

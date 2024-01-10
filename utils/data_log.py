@@ -2,7 +2,7 @@ import datetime
 import inspect
 import os
 
-import robotpy_toolkit_7407_v2.utils.logger as lg
+import utils.logger as lg
 
 
 class Logger:

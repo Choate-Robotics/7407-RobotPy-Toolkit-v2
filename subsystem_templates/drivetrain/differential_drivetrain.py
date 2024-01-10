@@ -1,10 +1,10 @@
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 
-from robotpy_toolkit_7407_v2.motor import PIDMotor
-from robotpy_toolkit_7407_v2.oi.joysticks import JoystickAxis
-from robotpy_toolkit_7407_v2.subsystem import Subsystem
-from robotpy_toolkit_7407_v2.utils import logger
-from robotpy_toolkit_7407_v2.utils.units import rad, m, radians_per_meter, meters_per_second
+from motor import PIDMotor
+from oi.joysticks import JoystickAxis
+from subsystem import Subsystem
+from utils import logger
+from utils.units import rad, m, radians_per_meter, meters_per_second
 class DifferentialDrivetrain(Subsystem):
     """
     Extendable differential drivetrain class.

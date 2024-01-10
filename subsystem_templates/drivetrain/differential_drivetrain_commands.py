@@ -1,11 +1,11 @@
-from robotpy_toolkit_7407_v2.motors import ctre_motors
-from robotpy_toolkit_7407_v2.unum import Unum
+from motors import ctre_motors
+from unum import Unum
 
-from robotpy_toolkit_7407_v2.command import SubsystemCommand, T
-from robotpy_toolkit_7407_v2.motors.ctre_motors import talon_sensor_vel_unit
-from robotpy_toolkit_7407_v2.subsystem_templates.drivetrain.differential_drivetrain import DifferentialDrivetrain
-from robotpy_toolkit_7407_v2.utils.math import clamp, talon_sensor_units_to_inches, inches_to_talon_sensor_units
-from robotpy_toolkit_7407_v2.utils.units import m, s
+from command import SubsystemCommand, T
+from motors.ctre_motors import talon_sensor_vel_unit
+from subsystem_templates.drivetrain.differential_drivetrain import DifferentialDrivetrain
+from utils.math import clamp, talon_sensor_units_to_inches, inches_to_talon_sensor_units
+from utils.units import m, s
 
 
 # TODO Redo this to make it like swerve drivetrain commands

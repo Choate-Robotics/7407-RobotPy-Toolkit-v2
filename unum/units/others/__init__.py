@@ -3,8 +3,8 @@
 Source: http://physics.nist.gov/cuu/Units/outside.html
 """
 from math import pi
-from robotpy_toolkit_7407_v2.unum import Unum
-from robotpy_toolkit_7407_v2.unum.units.si import *
+from unum import Unum
+from unum.units.si import *
 unit = Unum.unit
 
 min        = MIN      = unit( 'min'      , 60 * s            , 'minute'                    )

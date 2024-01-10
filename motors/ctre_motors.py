@@ -4,10 +4,10 @@ from dataclasses import dataclass
 from typing import Optional
 
 import ctre
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 
-from robotpy_toolkit_7407_v2.motor import PIDMotor
-from robotpy_toolkit_7407_v2.utils.units import rad, rev, s, radians_per_second, radians_per_second_squared, radians
+from motor import PIDMotor
+from utils.units import rad, rev, s, radians_per_second, radians_per_second_squared, radians
 
 
 @dataclass

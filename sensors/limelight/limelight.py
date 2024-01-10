@@ -2,8 +2,8 @@ import math
 from networktables import NetworkTables
 from wpimath.geometry import Pose3d, Translation3d, Rotation3d
 
-from robotpy_toolkit_7407_v2.utils.units import m, deg, rad, radians
-from robotpy_toolkit_7407_v2.sensors.odometry import VisionEstimator
+from utils.units import m, deg, rad, radians
+from sensors.odometry import VisionEstimator
 
 from wpilib import Timer
 

@@ -1,5 +1,5 @@
 import photonvision
-from robotpy_toolkit_7407_v2.sensors.photonvision.photon_target import PhotonTarget
+from sensors.photonvision.photon_target import PhotonTarget
 from wpimath.geometry import Pose3d
 
 

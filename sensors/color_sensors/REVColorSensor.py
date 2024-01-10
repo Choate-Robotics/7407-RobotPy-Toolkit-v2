@@ -1,6 +1,6 @@
 from rev import ColorSensorV3
 from wpilib import I2C
-from robotpy_toolkit_7407_v2.utils.logger import Logger
+from utils.logger import Logger
 
 
 class REVColorSensor:

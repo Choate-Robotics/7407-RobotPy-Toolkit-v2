@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import commands2 as commands
 import commands2.button
 
-from robotpy_toolkit_7407_v2.oi.joysticks import Joysticks
+from oi.joysticks import Joysticks
 
 
 @dataclass

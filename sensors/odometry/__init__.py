@@ -1,1 +1,1 @@
-from robotpy_toolkit_7407_v2.sensors.odometry.vision_estimator import VisionEstimator
+from sensors.odometry.vision_estimator import VisionEstimator

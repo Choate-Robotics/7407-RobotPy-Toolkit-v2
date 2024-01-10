@@ -1,4 +1,4 @@
-from robotpy_toolkit_7407_v2.utils.units import radians
+from utils.units import radians
 
 
 class BaseGyro:

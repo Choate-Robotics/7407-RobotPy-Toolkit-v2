@@ -1,9 +1,9 @@
 import math
 from wpilib import ADIS16448_IMU
 
-from robotpy_toolkit_7407_v2.utils.units import radians
+from utils.units import radians
 
-from robotpy_toolkit_7407_v2.sensors.gyro.base_gyro import BaseGyro
+from sensors.gyro.base_gyro import BaseGyro
 
 
 class GyroADIS16448(BaseGyro):

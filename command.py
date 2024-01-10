@@ -1,7 +1,7 @@
 from typing import Generic, TypeVar
 import commands2
 
-from robotpy_toolkit_7407_v2.subsystem import Subsystem
+from subsystem import Subsystem
 
 T = TypeVar("T", bound=Subsystem)
 

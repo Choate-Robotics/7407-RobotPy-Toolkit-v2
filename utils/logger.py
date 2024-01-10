@@ -3,7 +3,7 @@ import logging.config
 import os
 
 
-from robotpy_toolkit_7407_v2.utils.color import Color, NoColor
+from utils.color import Color, NoColor
 
 """
 Logger utility for debugging. 

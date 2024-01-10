@@ -3,8 +3,8 @@
 Source: http://physics.nist.gov/cuu/Units/units.html
 """
 
-from robotpy_toolkit_7407_v2.unum import Unum
-from robotpy_toolkit_7407_v2.unum.units.si.base import *
+from unum import Unum
+from unum.units.si.base import *
 unit = Unum.unit
 
 rad        = RAD     = unit( 'rad'   , M / M          , 'radian'         )

@@ -2,8 +2,8 @@ from photonvision import PhotonTrackedTarget
 from robotpy_apriltag import AprilTagFieldLayout
 from wpimath.geometry import Pose3d, Translation3d, Rotation3d, Transform3d
 
-from robotpy_toolkit_7407_v2.sensors.gyro import PigeonIMUGyro_Wrapper
-from robotpy_toolkit_7407_v2.sensors.photonvision import PhotonCamera, PhotonTarget, PhotonOdometry, AprilTag
+from sensors.gyro import PigeonIMUGyro_Wrapper
+from sensors.photonvision import PhotonCamera, PhotonTarget, PhotonOdometry, AprilTag
 
 gyro = PigeonIMUGyro_Wrapper(13)
 

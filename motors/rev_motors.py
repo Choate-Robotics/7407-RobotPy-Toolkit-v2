@@ -4,13 +4,13 @@ from typing import Optional
 
 from rev import CANSparkMax, SparkMaxPIDController, SparkMaxRelativeEncoder, SparkMaxAlternateEncoder
 
-from robotpy_toolkit_7407_v2.motor import PIDMotor
-from robotpy_toolkit_7407_v2.utils.units import rev, minute, radians, radians_per_second, rad, s, rotations_per_second, \
+from motor import PIDMotor
+from utils.units import rev, minute, radians, radians_per_second, rad, s, rotations_per_second, \
     rotations
 
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 
-from robotpy_toolkit_7407_v2.motors.ctre_motors import hundred_ms
+from motors.ctre_motors import hundred_ms
 
 
 @dataclass

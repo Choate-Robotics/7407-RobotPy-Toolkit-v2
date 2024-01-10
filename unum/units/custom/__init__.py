@@ -4,7 +4,7 @@ Note that this file will be overwritten when you upgrade to a new version
 of Unum, so if you have custom units they should be in their own file.
 """
 
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 unit = Unum.unit
 
 # << uncomment this import if you want to derive your units from SI >>

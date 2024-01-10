@@ -5,11 +5,11 @@ from wpimath.controller import HolonomicDriveController, PIDController, Profiled
 from wpimath.geometry import Rotation2d
 from wpimath.trajectory import TrapezoidProfileRadians, Trajectory
 
-from robotpy_toolkit_7407_v2.command import SubsystemCommand
-from robotpy_toolkit_7407_v2.subsystem_templates.drivetrain.swerve_drivetrain import SwerveDrivetrain
-from robotpy_toolkit_7407_v2.utils import logger
-from robotpy_toolkit_7407_v2.utils.math import rotate_vector, bounded_angle_diff
-from robotpy_toolkit_7407_v2.utils.units import m, s, rad
+from command import SubsystemCommand
+from subsystem_templates.drivetrain.swerve_drivetrain import SwerveDrivetrain
+from utils import logger
+from utils.math import rotate_vector, bounded_angle_diff
+from utils.units import m, s, rad
 
 
 class DriveSwerve(SubsystemCommand[SwerveDrivetrain]):

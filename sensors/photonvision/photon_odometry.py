@@ -12,10 +12,10 @@ import math
 from photonvision import PhotonUtils
 from photonvision._photonvision import RobotPoseEstimator, PoseStrategy
 
-from robotpy_toolkit_7407_v2.sensors.photonvision.photon_target import PhotonTarget, AprilTag
-from robotpy_toolkit_7407_v2.sensors.photonvision.photon_camera import PhotonCamera
+from sensors.photonvision.photon_target import PhotonTarget, AprilTag
+from sensors.photonvision.photon_camera import PhotonCamera
 from robotpy_apriltag import AprilTagFieldLayout
-from robotpy_toolkit_7407_v2.sensors.gyro import BaseGyro
+from sensors.gyro import BaseGyro
 from wpimath.geometry import Pose3d, Translation3d, Rotation3d, Transform2d, Translation2d, Rotation2d, Transform3d
 
 

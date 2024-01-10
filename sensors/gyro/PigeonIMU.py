@@ -1,8 +1,8 @@
 import ctre
 import math
 
-from robotpy_toolkit_7407_v2.utils.units import radians
-from robotpy_toolkit_7407_v2.sensors.gyro.base_gyro import BaseGyro
+from utils.units import radians
+from sensors.gyro.base_gyro import BaseGyro
 
 
 class PigeonIMUGyro_Wrapper(BaseGyro):

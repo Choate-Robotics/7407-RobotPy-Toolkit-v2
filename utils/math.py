@@ -1,8 +1,8 @@
 import math
 
-from robotpy_toolkit_7407_v2.unum import Unum
+from unum import Unum
 
-from robotpy_toolkit_7407_v2.utils.units import rad
+from utils.units import rad
 
 
 def bounded_angle_diff(theta_from: float, theta_too: float) -> float:
