@@ -4,7 +4,7 @@ from typing import Optional
 
 from rev import CANSparkMax, SparkMaxPIDController, SparkMaxRelativeEncoder, SparkMaxAlternateEncoder
 
-from motor import PIDMotor
+from motor_tool import PIDMotor
 from utils.units import rev, minute, radians, radians_per_second, rad, s, rotations_per_second, \
     rotations
 

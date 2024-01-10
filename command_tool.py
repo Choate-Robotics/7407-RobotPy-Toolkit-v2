@@ -1,7 +1,7 @@
 from typing import Generic, TypeVar
 import commands2
 
-from subsystem import Subsystem
+from subsystem_tool import Subsystem
 
 T = TypeVar("T", bound=Subsystem)
 

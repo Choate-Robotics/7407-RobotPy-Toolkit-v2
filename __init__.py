@@ -1,6 +1,6 @@
 __version__ = '0.5.11'
 
-from subsystem import Subsystem
-from command import BasicCommand, SubsystemCommand
-from motor import Motor, PIDMotor, EncoderMotor
+from subsystem_tool import Subsystem
+from command_tool import BasicCommand, SubsystemCommand
+from motor_tool import Motor, PIDMotor, EncoderMotor
 import unum

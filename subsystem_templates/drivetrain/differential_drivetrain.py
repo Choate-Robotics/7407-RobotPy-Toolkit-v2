@@ -1,8 +1,8 @@
 from unum import Unum
 
-from motor import PIDMotor
+from motor_tool import PIDMotor
 from oi.joysticks import JoystickAxis
-from subsystem import Subsystem
+from subsystem_tool import Subsystem
 from utils import logger
 from utils.units import rad, m, radians_per_meter, meters_per_second
 class DifferentialDrivetrain(Subsystem):

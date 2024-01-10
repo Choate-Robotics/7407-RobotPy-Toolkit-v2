@@ -5,7 +5,7 @@ from wpimath.controller import HolonomicDriveController, PIDController, Profiled
 from wpimath.geometry import Rotation2d
 from wpimath.trajectory import TrapezoidProfileRadians, Trajectory
 
-from command import SubsystemCommand
+from command_tool import SubsystemCommand
 from subsystem_templates.drivetrain.swerve_drivetrain import SwerveDrivetrain
 from utils import logger
 from utils.math import rotate_vector, bounded_angle_diff
